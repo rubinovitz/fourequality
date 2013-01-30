@@ -1,0 +1,336 @@
+
+/* Custom */
+html,body{height:100%;}
+
+body#home{
+	background-image:url('/static/images/bg.png');
+}
+
+body#home h1{
+	font-family: 'Kavoon', cursive;
+	color:white;
+	font-size:100px;
+	text-align:center;
+	text-shadow: 2px 5px #684979;	
+	margin-bottom: 3%;
+}
+body #content{
+	padding-top:2%;
+}
+
+#content{
+	min-height:100%;
+}
+
+#congrats{
+	margin-top: 20%;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+* { margin:0; padding:0; } 
+
+html, body, #wrap { height: 100%; }
+
+body > #wrap {height: auto; min-height: 100%;}
+
+#main { padding-bottom: 150px; }  /* must be same height as the footer */
+
+#footer { 
+  position: relative;
+	clear:both;
+	margin-top: -25px;
+	margin-bottom: 25px;
+	color: white;
+	height: 22px;
+	text-align:center;
+} 
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+body#home .copy{
+	color:white;
+	font-size: 30px;
+	font-family: helvetica;
+	text-align:center;
+}
+
+body#home a.big-button {
+	color:white;
+	text-decoration:none;
+}
+
+body#home #more-info{
+	font-size: 22px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-bottom:1%;
+}
+
+body#home #about{
+	text-align:center;
+	font-size: 27px;
+}
+body#home a{
+	color:#505050; 
+}
+body#home #hrc-link{
+	padding-top: 10px;
+	color:#505050
+}
+body#home #hrc-container{
+	margin: 10px;
+	margin-bottom:20px;
+}
+.left{
+	float:left
+}
+
+.clear{
+	clear:both;
+}
+body#home #hrc-link{
+	text-align:center;
+	margin:auto;
+}
+
+body#home #hrc-logo{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	margin-right: 10px;
+}
+.big-button{
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-box-align: center;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 3px 0px;
+	background-color: #609;
+	background-origin: padding-box;
+	border-bottom-color: rgba(0, 0, 0, 0.247059);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-width: 1px;
+	border-left-color: rgba(0, 0, 0, 0.247059);
+	border-left-width: 1px;
+	border-right-color: rgba(0, 0, 0, 0.247059);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgba(0, 0, 0, 0.247059);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 3px 0px;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	outline-color: white;
+	padding-bottom: 7px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 7px;
+	position: relative;
+	text-align: center;
+	text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 1px;
+	height: 62px;
+	width: 436px;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/* Prevent callout */
+
+.nocallout {
+    -webkit-touch-callout: none;
+}
+
+.pressed {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* A hack for HTML5 contenteditable attribute on mobile */
+
+textarea[contenteditable] {
+    -webkit-appearance: none;
+}
+
+/* A workaround for S60 3.x and 5.0 devices which do not animated gif images if
+   they have been set as display: none */
+
+.gifhidden {
+    position: absolute;
+    left: -100%;
+}
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;
+    direction: ltr;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    text-indent: -999em;
+}
+
+.ir br {
+    display: none;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/**
+ * Clearfix helper
+ * Used to contain floats: h5bp.com/q
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+@media only screen and (min-width: 800px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for viewports that meet the condition */
+}

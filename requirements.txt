@@ -1,0 +1,7 @@
+flask
+tornado
+pymongo
+Flask-OAuth
+pyfoursquare
+Flask-SQLAlchemy
+psycopg2

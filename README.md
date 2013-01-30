@@ -1,4 +1,11 @@
-fourequality
-============
-
-python-flask foursquare application for pushing HRC Corporate Equality scores as venue check in replies
+FourEquality
+====================
+A python-flask foursquare oauth and real-time push notifications application.
+ 
+Environment Variables
+-------------------
+> clientId
+> clientSecret
+> callback
+> dbUrl
+> environ(dev or production)

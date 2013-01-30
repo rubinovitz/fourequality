@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block extrahead %}
+	<link href='http://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
+{% endblock %}
+{% block content %}
+<body id="home">
+	<div id="content">
+		<div id="main">
+		<h1> FourEquality </h1>
+		<div class="copy">
+			See the HRC Corporate Equality Rating whenever you check in to a rated Foursquare venue.
+			<a class="big-button" href="/oauth">Connect with Foursquare</a>
+			<div id="more-info">What are HRC Corporate Equality Ratings and why do they matter?</div>
+		</div>
+		<div id="about" class="copy">
+			Every year the Human Rights Campaign ranks corporate policies and practices based on how they treat employees. This application will help you in supporting venues that also care about workplace equality :) 
+			<div id="hrc-container" class="clear">
+  		<img id="hrc-logo" src="/static/images/hrc.png" class="clear"></img> 
+			<a id="hrc-link" href="http://www.hrc.org/corporate-equality-index" class="clear">HRC Corporate Equality website</a>
+			</div>
+		</div> 
+	</div>
+</div>
+{% endblock %}
