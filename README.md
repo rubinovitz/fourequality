@@ -4,12 +4,12 @@ A python-flask foursquare oauth and real-time push notifications application.
  
 Environment Variables
 -------------------
-> clientId
+> clientId - found in Foursquare app dashboard
+ 
+> clientSecret - found in  Foursquare app dashboard
 
-> clientSecret
+> callback - your callback url
 
-> callback
+> dbUrl - url to your database
 
-> dbUrl
-
-> environ(dev or production)
+> environ(dev or production) - whether you are in production or development
