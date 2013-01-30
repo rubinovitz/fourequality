@@ -1,6 +1,7 @@
 FourEquality
 ====================
 A python-flask foursquare oauth and real-time push notifications application.
+>[http://fourequality.herokuapp.com/](http://fourequality.herokuapp.com/ "Fourequality")
  
 Environment Variables
 -------------------
